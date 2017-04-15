@@ -1,0 +1,82 @@
+vocabulary
+Heavily influenced by toki pona.
+
+Using just 1 bit of checksum, we can make sure each pair of words differs in at least 2 places.
+
+number of sylables       1 2 3  4
+number of possible words 1 8 64 256
+
+%the 2 sylable words only need 1 bit of checksum, so we can have 8 of them.
+The 2 sylable words will be from toki pona:
+li e ni mi
+la sina pi seme
+
+li la mi sina
+pi seme e ni
+
+_E F C _T
+b _t _L l
+
+odo idi ito oti
+igo ogi oko iki
+
+The 3 syllable words will be from toki pona:
+toki pona jan tawa
+ona ala en kama
+sona mute tenpo wile
+o lon ken ali
+ike suli moku ma
+luka jo lukin ijo
+pali lawa wan kalama
+tomo kiwen tu lili
+telo nimi kin nasa
+pana sin ante meli
+tan taso pilin sama
+kepeken lupa nanpa suno
+sitelen moli nasin kulupu
+olin kili ilo mije
+open awen anu kute
+musi pini soweli unpa
+
+The 4 syllable words will be from toki pona:
+utala kon
+lape mama sewi pimeja
+kasi laso lipu palisa
+insa pakala sijelo walo
+wawa anpa loje waso
+sike sinpin weka jaki
+len namako uta jelo
+noka poki seli linja
+kule mani nena selo
+monsi kala pipi lete
+ko mun poka oko
+supa akesi suwi esun
+
+These 4 syllable words will make it easier to program:
+function actor data interpret
+input output list assign
+run compile variable rotate(clockwise)
+copy secret sign hash
+add subtract multiply divide
+exponent remainder xor tuple
+dictionary bit byte race-condition
+open-parenthasis close-parenthasis period newline
+colon character tab type
+
+
+These 4 syllable words will make it easier to talk about physical events:
+mass length speed momentum
+energy pressure force power
+angle accelleration 
+
+These 4 syllable words will make it easier to express big numbers:
+6*6*6 = 216 = bnnn 
+216*216 = 46656 = bnnnnnn
+1/216
+1/46656
+So to pronounce a big number like 9uuuud, you would say:
+oti oko oko 216 oko oko iko
+To pronounce 9pudbuu: oti 46656 odi oko iko 216 ijo oko oko
+
+words from toki pona to omit:
+suwi pata mu alasa 

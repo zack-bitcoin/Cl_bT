@@ -1,0 +1,35 @@
+words
+
+how many 2-sylable words?
+16:
+E F o t
+C T L l
+_E _F _o _t
+_C _T _L _l
+
+possible pronouncations:
+ido idi igo igi
+ito iti iko iki
+odo odi ogo ogi
+oto oti oko oki
+
+how many 3-sylable words? 128
+
+Assuming we want 2-bits of checksum on each word, 3-sylables is only 32 words.
+
+
+Handwritten?
+Each consonant is a vertical line. you make a small circle or other mark in some, none, or all of 3 spots vertically stacked to the right of the vertical line.
+If the top spot is marked, then it is a consonant that comes from the front of your mouth.
+If the middle spot is marked, then it is a voiced consonant.
+If the bottom spot is marked, then the vowel following the consonant is low.
+
+
+lets toki pali-fy some example words:
+"zackary" -> "izackary" -> "FlF"
+which can also sound like "idikidi"
+"toki pali" -> "otokipali" -> "_ClTF"
+which can also sound like "otokitidi"
+"water" -> "iwata" -> "FT"
+which can also sound like "iditi"
+
